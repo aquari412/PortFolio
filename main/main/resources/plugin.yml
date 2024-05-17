@@ -1,0 +1,5 @@
+name: QuizItem
+version: '${project.version}'
+main: com.aquari.quizitem.QuizItem
+api-version: '1.20'
+
