@@ -12,7 +12,7 @@ Java,HTML,CSS,Javascript
 ### QuizItem-1.0-SNAPSHOT.jar
     ダウンロードされるプラグインのファイル
 ## images
-  Webサイト内で使用されている画像。著作権フリーのものを使用
+      Webサイト内で使用されている画像。著作権フリーのものを使用
 ## main/main
   ## java/com/aquari/quizitem
   ### Quizitem.java
