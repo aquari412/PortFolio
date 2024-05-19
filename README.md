@@ -8,13 +8,13 @@ Java,HTML,CSS,Javascript
 # 各ファイルの説明
 ## DownLoad
 #### Preview.mp4
-  Webサイト内で再生されている動画
+    Webサイト内で再生されている動画
 ### QuizItem-1.0-SNAPSHOT.jar
-  ダウンロードされるプラグインのファイル
+    ダウンロードされるプラグインのファイル
 ## images
   Webサイト内で使用されている画像。著作権フリーのものを使用
 ## main/main
-## java/com/aquari/quizitem
+  ## java/com/aquari/quizitem
   ### Quizitem.java
     プラグインのコードが記載されているファイル
 ## resoures
