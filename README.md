@@ -6,37 +6,26 @@ Java,HTML,CSS,Javascript
 自作プラグイン(java使用)
 
 # 各ファイルの説明
-### DownLoad
-*Preview.mp4*
-
+## DownLoad
+####Preview.mp4
   Webサイト内で再生されている動画
-  
-*QuizItem-1.0-SNAPSHOT.jar*
-
+###QuizItem-1.0-SNAPSHOT.jar
   ダウンロードされるプラグインのファイル
-
-### images
+## images
   Webサイト内で使用されている画像。著作権フリーのものを使用
-
-### main/main
+## main/main
 ## java/com/aquari/quizitem
-  *Quizitem.java*
-  
+  ###Quizitem.java
     プラグインのコードが記載されているファイル
 ## resoures
-  *plugin.yml*
-  
+  ### plugin.yml
     バージョン情報等が記載されているファイル
-### src
-  *app.js*
-  
+## src
+  ### app.js
     Webサイト用のJavascriptを記載しているファイル
-    
-  *index.html*
-  
+  ### index.html
     Webサイト用のHTMLを記載しているファイル
-    
-  *style.css*
+  ### style.css
   
     Webサイト用のCSSを記載しているファイル
   
