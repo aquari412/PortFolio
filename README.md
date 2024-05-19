@@ -10,6 +10,7 @@ Java,HTML,CSS,Javascript
 *Preview.mp4*
 
   Webサイト内で再生されている動画
+  
 *QuizItem-1.0-SNAPSHOT.jar*
 
   ダウンロードされるプラグインのファイル
@@ -20,16 +21,23 @@ Java,HTML,CSS,Javascript
 ### main/main
 ## java/com/aquari/quizitem
   *Quizitem.java*
+  
     プラグインのコードが記載されているファイル
 ## resoures
   *plugin.yml*
+  
     バージョン情報等が記載されているファイル
 ### src
   *app.js*
+  
     Webサイト用のJavascriptを記載しているファイル
+    
   *index.html*
+  
     Webサイト用のHTMLを記載しているファイル
+    
   *style.css*
+  
     Webサイト用のCSSを記載しているファイル
   
       
