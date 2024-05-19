@@ -15,7 +15,7 @@ Java,HTML,CSS,Javascript
   Webサイト内で使用されている画像。著作権フリーのものを使用
 ## main/main
 ## java/com/aquari/quizitem
-  ###Quizitem.java
+  ### Quizitem.java
     プラグインのコードが記載されているファイル
 ## resoures
   ### plugin.yml
