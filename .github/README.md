@@ -7,6 +7,11 @@ Java,HTML,CSS,Javascript
 自作プラグイン(java使用)
 
 # 各ファイルの説明
+
+## .github
+### README.md
+    READMEを記載
+## docs
 ## DownLoad
 #### Preview.mp4
     Webサイト内で再生されている動画
@@ -14,6 +19,13 @@ Java,HTML,CSS,Javascript
     ダウンロードされるプラグインのファイル
 ## images
       Webサイト内で使用されている画像。著作権フリーのものを使用
+### app.js
+    Webサイト用のJavascriptを記載しているファイル
+  ### index.html
+    Webサイト用のHTMLを記載しているファイル
+  ### style.css
+  
+    Webサイト用のCSSを記載しているファイル
 ## main/main
   ## java/com/aquari/quizitem
   ### Quizitem.java
@@ -21,13 +33,4 @@ Java,HTML,CSS,Javascript
 ## resoures
   ### plugin.yml
     バージョン情報等が記載されているファイル
-## src
-  ### app.js
-    Webサイト用のJavascriptを記載しているファイル
-  ### index.html
-    Webサイト用のHTMLを記載しているファイル
-  ### style.css
-  
-    Webサイト用のCSSを記載しているファイル
-  
       
