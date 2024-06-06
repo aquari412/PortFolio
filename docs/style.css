@@ -30,6 +30,7 @@ body {
     width: 280px;
 }
 
+
 .main {
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-size: 1.1rem;
@@ -38,9 +39,11 @@ body {
     overflow-x: hidden;
 }
 
-.QuizLogo {
-    width: 150px;
+.QuizLogo img {
+    width: 60%;
 }
+
+
 
 .DownLoad {
     padding-left: 40px;
@@ -55,25 +58,56 @@ body {
 }
 
 .Explanation {
+    display: inline-block;
     color: #d3d3d3;
+    margin: 5vw;
+    border: 1.5px solid #aaaaaa;
+    padding: 10px;
 }
+
+.FlexBox {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    align-items: center;
+    margin-right: 5vw;
+    top: 30vh;
+    right: 2vw;
+}
+
 
 .PreViewEx {
-    position: absolute;
+
     font-size: 13px;
     color: #d3d3d3;
-    text-align: right;
-    margin-top: 20px;
-    margin-left: 1120px;
-
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    margin: 40px;
+.Notes {
+    position: absolute;
+    display: inline-block;
+    color: #d3d3d3;
+    left: 5vw;
+    border: 1.5px solid #aaaaaa;
+    padding: 10px;
+    top: 80vh;
+    left: 5vw;
 }
 
-.video {
-    position: relative;
+
+@media screen and (max-width:760px) {
+    .Flexmedia {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+
+    .FlexBox {
+        position: static;
+        margin: auto;
+    }
+
+    .Notes {
+        position: static;
+    }
 }
