@@ -1,7 +1,7 @@
 https://aquari412.github.io/PortFolio/
 # 注意事項
- GitHub pagesがGitLFSに非対応なため動画が再生できません。
- フルスクリーン以外で表示をするとUIが崩れます。
+ GitHub pagesを用いてページを公開しています。
+ GittHub pagesがGitLFSに対応していないため、動画が再生できません。
 # 使用技術
 Java,HTML,CSS,Javascript
 
