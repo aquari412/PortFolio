@@ -60,6 +60,9 @@
     font-size: 0.9rem;
     color: rgb(230, 247, 248);
     padding-right: 10px;
+    position: relative;
+    top: 25vh;
+    left: 3vw;
 }
 
 .DownLoad a {
