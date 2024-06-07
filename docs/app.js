@@ -21,3 +21,20 @@ $(function () {
 	}, 500);
 });
 
+document.addEventListener('mousemove', (event) => {
+	const container = document.querySelector('.BackgroundMove');
+	const width = window.innerWidth;
+	const height = window.innerHeight;
+
+	// マウスの位置を取得
+	const mouseX = event.clientX;
+	const mouseY = event.clientY;
+
+	// マウスの位置に応じた背景位置を計算
+	const bgPosX = (mouseX / width) * 10 + 45; // 中心に対する微調整
+	const bgPosY = (mouseY / height) * 10 + 45; // 中心に対する微調整
+
+	// 背景位置を更新
+	container.style.backgroundPosition = `${bgPosX}% ${bgPosY}%`;
+});
+
