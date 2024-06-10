@@ -5,21 +5,32 @@ videos.forEach((video) => {
 	video.addEventListener('mouseover', () => video.play()); //カーソルを乗せたとき動画再生
 	video.addEventListener('mouseout', () => video.pause()); //カーソルを離したとき再生停止
 })
-
-$(function () {
-	setTimeout(function () {
-		$('.logo_fadein p').fadeIn(1000); //ロゴのフェードイン
-	}, 500);
+if (window.matchMedia('(max-width: 1100px)').matches) {
 	setTimeout(function () {
 		$('.logo_fadein').fadeOut(800); //ロゴのフェードアウト
-	}, 2500);
-});
+	}, 300);
+	$(function () {
+		setTimeout(function () {
+			$('.main').fadeIn(1000); //メイン画面のフェードイン
+		}, 1000);
+	});
+} else {
+	$(function () {
+		setTimeout(function () {
+			$('.logo_fadein p').fadeIn(1000); //ロゴのフェードイン
+		}, 500);
+		setTimeout(function () {
+			$('.logo_fadein').fadeOut(800); //ロゴのフェードアウト
+		}, 2500);
+	});
 
-$(function () {
-	setTimeout(function () {
-		$('.main').fadeIn(1000); //メイン画面のフェードイン
-	}, 500);
-});
+	$(function () {
+		setTimeout(function () {
+			$('.main').fadeIn(1000); //メイン画面のフェードイン
+		}, 500);
+	});
+
+}
 
 document.addEventListener('mousemove', (event) => {
 	const container = document.querySelector('.BackgroundMove');

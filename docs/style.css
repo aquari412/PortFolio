@@ -118,6 +118,25 @@ html {
         font-size: 62.5%;
     }
 
+    .logo_fadein {
+        background: #FFF;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .logo_fadein p {
+        position: fixed;
+        transform: translate(-50%, -50%);
+        width: 20%;
+        display: none;
+        z-index: 9999;
+    }
+
+
     .DownLoad {
         position: absolute;
         top: -6vh;
@@ -136,7 +155,7 @@ html {
         position: relative;
         width: 300px;
         top: 3vh;
-        left: 20vw
+        left: 13vw;
     }
 
     .Explanation {
