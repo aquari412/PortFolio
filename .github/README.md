@@ -2,6 +2,7 @@ https://aquari412.github.io/PortFolio/
 # 注意事項
  GitHub pagesを用いてページを公開しています。
  GittHub pagesがGitLFSに対応していないため、動画が再生できません。
+ PCのフルスクリーンとスマホ用の横幅390pxに対応したレイアウトにしているのでそれ以外だと少しレイアウトが崩れます。
 # 使用技術
 Java,HTML,CSS,Javascript
 
